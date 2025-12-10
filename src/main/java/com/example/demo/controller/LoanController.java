@@ -43,7 +43,7 @@ public class LoanController {
 		return ResponseEntity.ok(newLoan);
 	}
 	
-	@GetMapping("/check")
+	@GetMapping("/check2")
 	public String method() {
 		return "Jenkins";
 	}
