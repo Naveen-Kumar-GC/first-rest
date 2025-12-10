@@ -43,6 +43,11 @@ public class LoanController {
 		return ResponseEntity.ok(newLoan);
 	}
 	
+	@GetMapping("/check")
+	public String method() {
+		return "Jenkins";
+	}
+	
 	@GetMapping("/fetch/{lid}")
 	public ResponseEntity<Loan> getLoan(@PathVariable Long lid) {
 		
